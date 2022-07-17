@@ -5,6 +5,7 @@ import com.kumgo1d.githubapisample.data.repository.remote.GithubApiRemoteDataSou
 import com.kumgo1d.githubapisample.domain.data.User
 import com.kumgo1d.githubapisample.domain.repository.GithubApiRepository
 import javax.inject.Inject
+import javax.inject.Singleton
 
 class GithubApiRepositoryImpl @Inject constructor (
     private val apiRemoteDataSource: GithubApiRemoteDataSource,

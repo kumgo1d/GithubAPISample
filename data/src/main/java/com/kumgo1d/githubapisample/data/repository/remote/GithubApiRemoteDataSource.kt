@@ -6,7 +6,9 @@ import com.kumgo1d.githubapisample.domain.data.User
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 interface GithubApiRemoteDataSource {
     suspend fun getUsers(since: Int, page: Int): List<User>
 }

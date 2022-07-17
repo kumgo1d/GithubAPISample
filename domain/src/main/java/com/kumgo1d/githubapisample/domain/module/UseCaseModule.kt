@@ -13,5 +13,7 @@ import javax.inject.Singleton
 class UseCaseModule {
     @Singleton
     @Provides
-    fun provideGetGithubApiUsersUseCase(repository: GithubApiRepository): GetGithubApiUsersUseCase = GetGithubApiUsersUseCase(repository)
+    fun provideGetGithubApiUsersUseCase(repository: GithubApiRepository): GetGithubApiUsersUseCase {
+        return GetGithubApiUsersUseCase(repository)
+    }
 }
