@@ -1,4 +1,11 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    dependencies {
+        ext.hilt_version = "2.39.1"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+    }
+}
+
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false
@@ -7,4 +14,13 @@ plugins {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+    nav_version = "2.5.0"
+    retrofit_version = "2.9.0"
+    paging_version = "3.1.1"
+    room_version = "2.4.2"
+    hilt_version = "2.39.1"
+    androidx_hilt_version = "1.0.0-alpha01"
 }

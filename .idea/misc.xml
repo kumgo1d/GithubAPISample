@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/drawable-v24/ic_outline_bookmark.xml" value="0.11" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/drawable-v24/ic_outline_user.xml" value="0.11" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.1205" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/drawable/ic_baseline_bookmark_border_24.xml" value="0.1205" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/layout/fragment_user_list.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/layout/item_user.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/jungh/Documents/Git/GithubAPISample/presentation/src/main/res/menu/bottom_navigation_menu.xml" value="0.20384615384615384" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
